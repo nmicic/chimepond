@@ -4,6 +4,19 @@ ChimePond is a home for instrumental music made with JotTune Synth. One readable
 
 The JotTune project site introduces two uses for the same synth. ChimePond plays music, and ToneSeal sends messages between devices using sound. [Explore JotTune](https://jottune.app/) · [Try the ToneSeal beta](https://toneseal.me/)
 
+## Compose with an AI agent
+
+On macOS or Linux, install the local JotTune MCP server from npm.
+
+```sh
+npm install -g @chimepond/jottune-mcp
+```
+
+The setup guide walks through building the synth and connecting it to your MCP client.
+[MCP setup guide](https://github.com/chimepond/jottune-mcp#install-from-npm) · [Package on npm](https://www.npmjs.com/package/@chimepond/jottune-mcp)
+
+## Repositories
+
 | Repository | What you’ll find |
 | --- | --- |
 | [jottune-synth](https://github.com/chimepond/jottune-synth) | The integer synthesis engine, command-line renderer, browser player and macOS player source. Start here to build the instrument or play a TL file. |
